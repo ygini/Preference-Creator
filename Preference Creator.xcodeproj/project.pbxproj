@@ -9,24 +9,65 @@
 /* Begin PBXBuildFile section */
 		F878319A1F1BC85300689CBD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F87831991F1BC85300689CBD /* AppDelegate.m */; };
 		F878319D1F1BC85300689CBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F878319C1F1BC85300689CBD /* main.m */; };
-		F87831A01F1BC85300689CBD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F878319F1F1BC85300689CBD /* ViewController.m */; };
 		F87831A31F1BC85300689CBD /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = F87831A21F1BC85300689CBD /* Document.m */; };
 		F87831A51F1BC85300689CBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F87831A41F1BC85300689CBD /* Assets.xcassets */; };
 		F87831A81F1BC85400689CBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F87831A61F1BC85400689CBD /* Main.storyboard */; };
+		F87831C01F1BCEFF00689CBD /* PFM.framework in Copy Frameworks */ = {isa = PBXBuildFile; fileRef = F87831B41F1BC86100689CBD /* PFM.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F8A436AF1F1BD1AC008672B8 /* LocalOutlineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A436AE1F1BD1AC008672B8 /* LocalOutlineViewController.m */; };
+		F8A436B61F1BDBEB008672B8 /* ManifestBrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A436B51F1BDBEB008672B8 /* ManifestBrowserViewController.m */; };
+		F8A436BA1F1BE88C008672B8 /* ManifestPreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8A436B81F1BE88C008672B8 /* ManifestPreviewViewController.m */; };
+		F8A436BD1F1BE90C008672B8 /* ManifestPreviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8A436BC1F1BE90C008672B8 /* ManifestPreviewViewController.xib */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F87831B31F1BC86100689CBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F87831AF1F1BC86100689CBD /* PFM.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F87CC5961F1B93AB00604652;
+			remoteInfo = PFM;
+		};
+		F87831C11F1BCF0200689CBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F87831AF1F1BC86100689CBD /* PFM.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = F87CC5951F1B93AB00604652;
+			remoteInfo = PFM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F87831BF1F1BCEF600689CBD /* Copy Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F87831C01F1BCEFF00689CBD /* PFM.framework in Copy Frameworks */,
+			);
+			name = "Copy Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		F87831951F1BC85300689CBD /* Preference Creator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Preference Creator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F87831981F1BC85300689CBD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F87831991F1BC85300689CBD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		F878319C1F1BC85300689CBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F878319E1F1BC85300689CBD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F878319F1F1BC85300689CBD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F87831A11F1BC85300689CBD /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
 		F87831A21F1BC85300689CBD /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; };
 		F87831A41F1BC85300689CBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F87831A71F1BC85400689CBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F87831A91F1BC85400689CBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F87831AF1F1BC86100689CBD /* PFM.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PFM.xcodeproj; path = ../PFM/PFM.xcodeproj; sourceTree = "<group>"; };
+		F8A436AD1F1BD1AC008672B8 /* LocalOutlineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocalOutlineViewController.h; sourceTree = "<group>"; };
+		F8A436AE1F1BD1AC008672B8 /* LocalOutlineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocalOutlineViewController.m; sourceTree = "<group>"; };
+		F8A436B41F1BDBEB008672B8 /* ManifestBrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManifestBrowserViewController.h; sourceTree = "<group>"; };
+		F8A436B51F1BDBEB008672B8 /* ManifestBrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManifestBrowserViewController.m; sourceTree = "<group>"; };
+		F8A436B71F1BE88C008672B8 /* ManifestPreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManifestPreviewViewController.h; sourceTree = "<group>"; };
+		F8A436B81F1BE88C008672B8 /* ManifestPreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManifestPreviewViewController.m; sourceTree = "<group>"; };
+		F8A436BC1F1BE90C008672B8 /* ManifestPreviewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ManifestPreviewViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +84,7 @@
 		F878318C1F1BC85300689CBD = {
 			isa = PBXGroup;
 			children = (
+				F87831AF1F1BC86100689CBD /* PFM.xcodeproj */,
 				F87831971F1BC85300689CBD /* Preference Creator */,
 				F87831961F1BC85300689CBD /* Products */,
 			);
@@ -61,10 +103,15 @@
 			children = (
 				F87831981F1BC85300689CBD /* AppDelegate.h */,
 				F87831991F1BC85300689CBD /* AppDelegate.m */,
-				F878319E1F1BC85300689CBD /* ViewController.h */,
-				F878319F1F1BC85300689CBD /* ViewController.m */,
 				F87831A11F1BC85300689CBD /* Document.h */,
 				F87831A21F1BC85300689CBD /* Document.m */,
+				F8A436AD1F1BD1AC008672B8 /* LocalOutlineViewController.h */,
+				F8A436AE1F1BD1AC008672B8 /* LocalOutlineViewController.m */,
+				F8A436B41F1BDBEB008672B8 /* ManifestBrowserViewController.h */,
+				F8A436B51F1BDBEB008672B8 /* ManifestBrowserViewController.m */,
+				F8A436B71F1BE88C008672B8 /* ManifestPreviewViewController.h */,
+				F8A436B81F1BE88C008672B8 /* ManifestPreviewViewController.m */,
+				F8A436BC1F1BE90C008672B8 /* ManifestPreviewViewController.xib */,
 				F87831A41F1BC85300689CBD /* Assets.xcassets */,
 				F87831A61F1BC85400689CBD /* Main.storyboard */,
 				F87831A91F1BC85400689CBD /* Info.plist */,
@@ -81,6 +128,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F87831B01F1BC86100689CBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F87831B41F1BC86100689CBD /* PFM.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -91,10 +146,12 @@
 				F87831911F1BC85300689CBD /* Sources */,
 				F87831921F1BC85300689CBD /* Frameworks */,
 				F87831931F1BC85300689CBD /* Resources */,
+				F87831BF1F1BCEF600689CBD /* Copy Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				F87831C21F1BCF0200689CBD /* PBXTargetDependency */,
 			);
 			name = "Preference Creator";
 			productName = "Preference Creator";
@@ -128,6 +185,12 @@
 			mainGroup = F878318C1F1BC85300689CBD;
 			productRefGroup = F87831961F1BC85300689CBD /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = F87831B01F1BC86100689CBD /* Products */;
+					ProjectRef = F87831AF1F1BC86100689CBD /* PFM.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				F87831941F1BC85300689CBD /* Preference Creator */,
@@ -135,11 +198,22 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		F87831B41F1BC86100689CBD /* PFM.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = PFM.framework;
+			remoteRef = F87831B31F1BC86100689CBD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		F87831931F1BC85300689CBD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8A436BD1F1BE90C008672B8 /* ManifestPreviewViewController.xib in Resources */,
 				F87831A51F1BC85300689CBD /* Assets.xcassets in Resources */,
 				F87831A81F1BC85400689CBD /* Main.storyboard in Resources */,
 			);
@@ -152,14 +226,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8A436BA1F1BE88C008672B8 /* ManifestPreviewViewController.m in Sources */,
+				F8A436B61F1BDBEB008672B8 /* ManifestBrowserViewController.m in Sources */,
 				F87831A31F1BC85300689CBD /* Document.m in Sources */,
-				F87831A01F1BC85300689CBD /* ViewController.m in Sources */,
 				F878319D1F1BC85300689CBD /* main.m in Sources */,
+				F8A436AF1F1BD1AC008672B8 /* LocalOutlineViewController.m in Sources */,
 				F878319A1F1BC85300689CBD /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F87831C21F1BCF0200689CBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PFM;
+			targetProxy = F87831C11F1BCF0200689CBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		F87831A61F1BC85400689CBD /* Main.storyboard */ = {
@@ -307,6 +391,7 @@
 				F87831AE1F1BC85400689CBD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

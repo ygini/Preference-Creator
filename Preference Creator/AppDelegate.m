@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import <PFM/PFM.h>
 
 @interface AppDelegate ()
 
@@ -14,8 +15,20 @@
 
 @implementation AppDelegate
 
+- (void)applicationWillFinishLaunching:(NSNotification *)notification {
+    [[NSUserDefaults standardUserDefaults] registerDefaults:@{
+                                                              kPFMManifestsSources: @[
+                                                                      @{
+                                                                          kPFMManifestsSourceName: @"Apple Configurator 2",
+                                                                          kPFMManifestsSourcePath: @"/Applications/Apple Configurator 2.app/Contents/Frameworks/ConfigurationProfile.framework/Versions/A/Resources",
+                                                                          }
+                                                                      ]
+                                                              }];
+    
+
+}
+
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    // Insert code here to initialize your application
 }
 
 
