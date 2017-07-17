@@ -860,6 +860,7 @@ CA
                     </view>
                     <connections>
                         <outlet property="outlineView" destination="3AY-J1-CbT" id="MiE-XF-GAk"/>
+                        <outlet property="textViewForSelectedDescription" destination="Rm5-NQ-mCk" id="f7f-oi-YoV"/>
                         <segue destination="Tbv-st-4VD" kind="sheet" identifier="PresentManifestBrowser" id="Xil-Zk-FIF"/>
                     </connections>
                 </viewController>
