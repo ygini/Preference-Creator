@@ -21,6 +21,10 @@
                                                                       @{
                                                                           kPFMManifestsSourceName: @"Apple Configurator 2",
                                                                           kPFMManifestsSourcePath: @"/Applications/Apple Configurator 2.app/Contents/Frameworks/ConfigurationProfile.framework/Versions/A/Resources",
+                                                                          },
+                                                                      @{
+                                                                          kPFMManifestsSourceName: @"TEST",
+                                                                          kPFMManifestsSourcePath: @"/Users/ygi/Desktop/pfm_test",
                                                                           }
                                                                       ]
                                                               }];
