@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8F69BF37CED992E6D6B076F9B260F1F58FAC8A0E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "47E70EEBAEC97AFB5894ABD00A44A44C01754AF9" : 9223372036854775807,
+    "8F69BF37CED992E6D6B076F9B260F1F58FAC8A0E" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "4F4E5393-3F55-4D65-9D6B-51CAA2E78060",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "47E70EEBAEC97AFB5894ABD00A44A44C01754AF9" : "PFM\/",
+    "8F69BF37CED992E6D6B076F9B260F1F58FAC8A0E" : "Preference%20Creator\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Preference Creator",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Preference Creator.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:ygini\/PFM.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "47E70EEBAEC97AFB5894ABD00A44A44C01754AF9"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:ygini\/Preference-Creator.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8F69BF37CED992E6D6B076F9B260F1F58FAC8A0E"
+    }
+  ]
+}
